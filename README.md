@@ -5,6 +5,7 @@ My bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 ## Available manifests
 
 - [misaki](https://github.com/Ravencentric/misaki) - Fast, asynchronous link checker with optional FlareSolverr support.
+- [VencordInstallerCli](https://github.com/Vencord/Installer) - CLI installer for [Vencord](https://github.com/Vendicated/Vencord).
 
 ## How do I install these manifests?
 
