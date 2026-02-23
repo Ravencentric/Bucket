@@ -1,0 +1,48 @@
+{
+    "version": "0.9.129",
+    "description": "A next-generation test runner for Rust.",
+    "homepage": "https://nexte.st/",
+    "license": "MIT OR Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.129/cargo-nextest-0.9.129-x86_64-pc-windows-msvc.zip",
+            "hash": "2e417a5cb993feb0bea6b5beee7450948c02aecf13800936ae196dc7dfb49c38"
+        },
+        "arm64": {
+            "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.129/cargo-nextest-0.9.129-aarch64-pc-windows-msvc.zip",
+            "hash": "37317ce3aee4ff2db20c9529f8b079d8e838fee184126b95aa1f844223a13740"
+        },
+        "32bit": {
+            "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.129/cargo-nextest-0.9.129-i686-pc-windows-msvc.zip",
+            "hash": "949305c49ceb957f52a55942c2d5bb82a55e4f52fee130202181f0d29b227aa3"
+        }
+    },
+    "bin": [
+        "cargo-nextest.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/nextest-rs/nextest"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-$dashVersion/cargo-nextest-$dashVersion-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-$dashVersion/cargo-nextest-$dashVersion-x86_64-pc-windows-msvc.sha256"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-$dashVersion/cargo-nextest-$dashVersion-aarch64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-$dashVersion/cargo-nextest-$dashVersion-aarch64-pc-windows-msvc.sha256"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-$dashVersion/cargo-nextest-$dashVersion-i686-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-$dashVersion/cargo-nextest-$dashVersion-i686-pc-windows-msvc.sha256"
+                }
+            }
+        }
+    }
+}
